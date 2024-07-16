@@ -1,1 +1,58 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-image: url("https://m.media-amazon.com/images/I/91FK0bKj-fL._AC_SL1500_.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  width: 18rem;
+  height: 26rem;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.red {
+  color: red;
+}
+
+.black {
+  color: black;
+}
+
+#topLeftIcon {
+  font-size: 3rem;
+  font-weight: bold;
+  padding-left: 2rem;
+  padding-top: 1rem;
+}
+
+#bottomRightIcon {
+  font-size: 3rem;
+  font-weight: bold;
+  position: absolute; /* Position absolutely within the card */
+  bottom: 1rem;
+  right: 2rem;
+}
+
+#middleNumber {
+  font-size: 36px; /* Adjust size as needed */
+  font-weight: bold;
+  position: absolute; /* Position absolutely within the card */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the number */
+  text-align: center;
+}
